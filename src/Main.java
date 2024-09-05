@@ -58,15 +58,19 @@ public  class Main{
             }
         }
         //zgadujemy do skutku
-        System.out.println("podaj liczbe");
-        wpisanaLiczba=klawiatura.nextInt();
-        while(wylosowana!=wpisanaLiczba){
+        do{
+
+            System.out.println("podaj liczbe");
+            wpisanaLiczba=klawiatura.nextInt();
             if (wylosowana>wpisanaLiczba){
                 System.out.println("wpisano za malo");
             }
             else {
                 System.out.println("wpisano za duzo");
             }
+        }
+        while(wylosowana!=wpisanaLiczba);{
+
             System.out.println("podaj liczbe");
             wpisanaLiczba=klawiatura.nextInt();
         }
