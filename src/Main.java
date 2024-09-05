@@ -1,4 +1,7 @@
-
+/*
+git config user.name "nick"
+git confing user.email "mail"
+ */
 
 import java.util.Scanner;
 
