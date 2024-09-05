@@ -48,5 +48,14 @@ public  class Main{
                 case 2 -> "blisko";
                 default -> "slabo";
         });
+        //zgadujemy 10 razy
+        for (int i = 0; i < 10; i++) {
+            System.out.println("podaj liczbe");
+            wpisanaLiczba=klawiatura.nextInt();
+            if(wpisanaLiczba==wylosowana){
+                System.out.println("gratulacje wygrana");
+                break;
+            }
+        }
    }
 }
