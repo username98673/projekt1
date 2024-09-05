@@ -42,5 +42,11 @@ public  class Main{
             default:
                 System.out.println("slabo");
         }
+        System.out.println(switch (roznica){
+                case 0 -> "bardzo dobrze";
+                case 1 -> "bardzo blisko";
+                case 2 -> "blisko";
+                default -> "slabo";
+        });
    }
 }
