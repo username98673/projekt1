@@ -1,6 +1,10 @@
 /*
 git config user.name "nick"
 git confing user.email "mail"
+git init - puste repozytorium
+git add . - dodaj wszystkie pliki do repozytorium
+git commit -m "nazwa" - tworzy migawke o nazwie pusty projekt
+git push -u  origin master - dodaj do repozytorium
  */
 
 import java.util.Scanner;
@@ -26,5 +30,17 @@ public  class Main{
         System.out.println(roznica);
         //dzielenie calkowite
         roznica=roznica/10;
+        //instrukcja switch
+        switch (roznica){
+            case 0:
+                System.out.println("Dobra robota");
+                break;
+            case 1:
+                System.out.println("Bardo blisko");
+            case 2:
+                System.out.println("blisko");
+            default:
+                System.out.println("slabo");
+        }
    }
 }
