@@ -57,5 +57,19 @@ public  class Main{
                 break;
             }
         }
+        //zgadujemy do skutku
+        System.out.println("podaj liczbe");
+        wpisanaLiczba=klawiatura.nextInt();
+        while(wylosowana!=wpisanaLiczba){
+            if (wylosowana>wpisanaLiczba){
+                System.out.println("wpisano za malo");
+            }
+            else {
+                System.out.println("wpisano za duzo");
+            }
+            System.out.println("podaj liczbe");
+            wpisanaLiczba=klawiatura.nextInt();
+        }
+        System.out.println("gratulacje wygrana");
    }
 }
